@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=light" alt="C#, .NET, Redis, RabbitMQ, and Docker" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cs%2Cdotnet%2Credis%2Crabbitmq%2Cdocker&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cs%2Cdotnet%2Credis%2Crabbitmq%2Cdocker&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=cs%2Cdotnet%2Credis%2Crabbitmq%2Cdocker&amp;theme=light" alt="C#, .NET, Redis, RabbitMQ, and Docker" />
   </picture>
 </p>
 
