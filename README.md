@@ -1,31 +1,20 @@
+<h1 align="center">Sergey Urvantsev</h1>
+
+<p align="center"><strong>Software Engineer</strong></p>
+
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Sergey Urvantsev — .NET Backend Engineer" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,redis,rabbitmq,docker&amp;theme=light" alt="C#, .NET, Redis, RabbitMQ, and Docker" />
+  </picture>
 </p>
 
-## Обо мне
+## About
 
-Я **.NET Backend Engineer**. Разрабатываю серверные системы и превращаю бизнес-задачи в понятные, надёжные и сопровождаемые технические решения.
+I work mostly on backend systems with C# and .NET.  
+My usual areas are APIs, messaging, system design, and distributed services.
 
-Ценю прагматичный подход: сначала разобраться в задаче и ожидаемом результате, затем выбрать архитектуру и инструменты, которые помогут продукту развиваться без лишней сложности.
+## Stack
 
-## Основной стек
-
-**Backend**  
-`C#` · `.NET` · `ASP.NET Core` · `Entity Framework Core`
-
-**Данные и интеграции**  
-`PostgreSQL` · `Redis` · `RabbitMQ`
-
-**Инфраструктура и доставка**  
-`Docker` · `CI/CD` · `Kubernetes`
-
-## Мой подход
-
-- Начинаю с пользовательской или бизнес-проблемы, а не с технологии.
-- Выбираю решения, которые удобно развивать, тестировать и поддерживать.
-- Сохраняю баланс между скоростью поставки, качеством и стоимостью будущих изменений.
-- Довожу функциональность до законченного и предсказуемого результата.
-
-## Профили
-
-[GitHub](https://github.com/SergeyUrvantsev) · [LeetCode](https://leetcode.com/u/SergeyUrv/)
+`C# / .NET Backend` · `ASP.NET Core` · `EF Core` · `SQL` · `Redis` · `RabbitMQ` · `Docker` · `DDD` · `CQRS` · `Microservices`
