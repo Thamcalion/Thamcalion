@@ -6,9 +6,18 @@
 var me = new Developer(
     Name: "Sergey Urvantsev",
     Role: "Software Engineer",
-    Focus: new[] { "C# / .NET", "APIs", "Messaging", "System Design" });
+    Focus: new[]
+    {
+        "C# / .NET",
+        "APIs",
+        "Messaging",
+        "System Design"
+    });
 
-public sealed record Developer(string Name, string Role, string[] Focus);
+public sealed record Developer(
+    string Name,
+    string Role,
+    string[] Focus);
 ```
 
 ## Stack
