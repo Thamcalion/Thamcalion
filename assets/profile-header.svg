@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Sergey Urvantsev — .NET Backend Engineer</title>
+  <desc id="description">Сине-фиолетовый баннер: превращаю бизнес-задачи в надёжные backend-решения.</desc>
+
+  <defs>
+    <linearGradient id="background-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8faff" />
+      <stop offset="0.52" stop-color="#edf2ff" />
+      <stop offset="1" stop-color="#f5f3ff" />
+    </linearGradient>
+    <linearGradient id="background-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020" />
+      <stop offset="0.52" stop-color="#111936" />
+      <stop offset="1" stop-color="#17112f" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="currentColor" stroke-width="1" />
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#312e81" flood-opacity="0.18" />
+    </filter>
+    <clipPath id="frame">
+      <rect x="4" y="4" width="1272" height="352" rx="28" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .surface { fill: url(#background-light); }
+    .grid { color: #4f46e5; opacity: 0.10; }
+    .primary { fill: #111827; }
+    .secondary { fill: #374151; }
+    .eyebrow { fill: #4338ca; }
+    .line { stroke: #4f46e5; }
+    .node { fill: #ffffff; stroke: #4f46e5; }
+    .frame { stroke: #c7d2fe; }
+
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: url(#background-dark); }
+      .grid { color: #818cf8; opacity: 0.12; }
+      .primary { fill: #f8fafc; }
+      .secondary { fill: #cbd5e1; }
+      .eyebrow { fill: #a5b4fc; }
+      .line { stroke: #818cf8; }
+      .node { fill: #111936; stroke: #a78bfa; }
+      .frame { stroke: #3730a3; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect class="surface" width="1280" height="360" />
+    <rect class="grid" width="1280" height="360" fill="url(#grid)" />
+    <circle cx="1130" cy="84" r="270" fill="url(#glow)" />
+    <circle cx="120" cy="330" r="190" fill="url(#glow)" opacity="0.45" />
+
+    <g transform="translate(956 58)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path class="line" d="M35 125 L105 65 L184 92 L244 36" stroke-width="3" opacity="0.52" />
+      <path class="line" d="M35 125 L112 174 L203 151 L268 207" stroke-width="3" opacity="0.38" />
+      <path class="line" d="M105 65 L112 174 L184 92 L203 151" stroke-width="2" opacity="0.28" />
+      <circle class="node" cx="35" cy="125" r="13" stroke-width="3" />
+      <circle class="node" cx="105" cy="65" r="10" stroke-width="3" />
+      <circle class="node" cx="112" cy="174" r="11" stroke-width="3" />
+      <circle class="node" cx="184" cy="92" r="14" stroke-width="3" />
+      <circle class="node" cx="203" cy="151" r="9" stroke-width="3" />
+      <circle class="node" cx="244" cy="36" r="8" stroke-width="3" />
+      <circle class="node" cx="268" cy="207" r="12" stroke-width="3" />
+      <path d="M72 219 H229" stroke="url(#accent)" stroke-width="8" opacity="0.92" />
+      <path d="M72 237 H181" stroke="url(#accent)" stroke-width="8" opacity="0.48" />
+    </g>
+
+    <g font-family="Segoe UI, Inter, Arial, sans-serif">
+      <text class="eyebrow" x="76" y="84" font-size="17" font-weight="700" letter-spacing="3">ПРОДУКТОВЫЙ BACKEND · .NET</text>
+      <text class="primary" x="72" y="166" font-size="64" font-weight="750" letter-spacing="-1.5">Sergey Urvantsev</text>
+      <text x="74" y="222" font-size="32" font-weight="650" fill="url(#accent)">.NET Backend Engineer</text>
+      <text class="secondary" x="76" y="278" font-size="24" font-weight="450">Превращаю бизнес-задачи в надёжные backend-решения</text>
+    </g>
+  </g>
+
+  <rect class="frame" x="4" y="4" width="1272" height="352" rx="28" fill="none" stroke-width="2" />
+</svg>
